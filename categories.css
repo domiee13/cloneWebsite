@@ -1,0 +1,20 @@
+.categories{
+	margin-top: 10px;
+	width: 308px;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+}
+
+.categories .categories-cover{
+	border-radius: 10px ;
+	background: url('https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg');
+	height: 100%;
+	background-size: cover; /*//De anh duoc full trong div*/
+}
+
+.categories .categories-title{
+	font-weight: bold;
+	color: #009ebe;
+	padding-top: 16px;
+}
