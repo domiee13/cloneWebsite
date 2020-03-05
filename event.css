@@ -1,0 +1,67 @@
+body{
+  font-family: arial,sans-serif;
+}
+.event{
+  height: 256px;
+  width: 340px;
+  border: 1px solid #CCC;
+  padding: 16px 8px;
+  padding-top:30px;
+  border-radius:10px;
+  background-color: #EEE;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-time{
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#009ebe;
+  font-size:16px;
+  margin-bottom: 8px;
+}
+
+.event-title{
+  font-size:32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.event-content{
+  font-size:14px;
+}
+
+.event-place{
+  margin-top: 10px;
+  color: #666;
+}
+
+.event-attend{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+
+.event .event-attend .attend-button{
+  text-decoration: none;
+  border: 1px solid #009ebe;
+  padding: 2px 2px;
+  width: 79.8px;
+  height: 38px;
+  text-align: center;
+  margin-left: 150px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color:#009ebe;
+}
+
+.event .event-attend .attend-button:hover {
+  background-color: #009ebe;
+  color: white;
+  transition: all 0.6s;
+}
