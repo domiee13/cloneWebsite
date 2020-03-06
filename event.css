@@ -2,15 +2,18 @@ body{
   font-family: arial,sans-serif;
 }
 .event{
-  height: 256px;
-  width: 340px;
-  border: 1px solid #CCC;
+  height: 270px;
+  width: 320px;
+  border: 1px solid #EEE;
   padding: 16px 8px;
   padding-top:30px;
   border-radius:10px;
-  background-color: #EEE;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  margin-right: 30px;
+  box-shadow: 2px 2px #DDD;
+  padding-left: 20px;
 }
 
 .event-time{
@@ -19,6 +22,7 @@ body{
   color:#009ebe;
   font-size:16px;
   margin-bottom: 8px;
+
 }
 
 .event-title{

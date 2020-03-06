@@ -1,9 +1,10 @@
 .categories{
 	margin-top: 10px;
-	width: 308px;
-	height: 180px;
+	width: 270px;
+	height: 200px;
 	display: flex;
 	flex-direction: column;
+	
 }
 
 .categories .categories-cover{
@@ -18,3 +19,4 @@
 	color: #009ebe;
 	padding-top: 16px;
 }
+
